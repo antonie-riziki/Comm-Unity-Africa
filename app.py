@@ -1,5 +1,4 @@
 import pandas as pd 
-import soccerdata as sd
 import streamlit as st 
 import matplotlib.pyplot as plt 
 import seaborn as sb 
@@ -13,12 +12,6 @@ signin_page = st.Page("./pgs/signin.py", title="sign in", icon=":material/thumb_
 home_page = st.Page("./pgs/main.py", title="home page", icon=":material/house:")
 hub_page = st.Page("./pgs/hub.py", title="hub", icon=":material/query_stats:")
 chatbot_page = st.Page("./pgs/chatbot.py", title="chatbot", icon=":material/chat:")
-# player_profile_page = st.Page("./pgs/player_profile.py", title="player profile", icon=":material/group_search:")
-# player_similarity_page = st.Page("./pgs/player_similarity_search.py", title="player similarity search", icon=":material/simulation:")
-# team_comparison_page = st.Page("./pgs/team_comparison.py", title="team comparison", icon=":material/group_work:")
-# team_profile_page = st.Page("./pgs/team_profile.py", title="team profile", icon=":material/groups:")
-# match_prediction_page = st.Page("./pgs/match_prediction.py", title="match prediction", icon=":material/online_prediction:")
-# test_page = st.Page("./pgs/test.py", title="test page", icon=":material/online_prediction:")
 
 
 
