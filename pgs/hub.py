@@ -23,8 +23,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-google_password = "klww ugdz tcqh egqi"
-
 genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 
 africastalking.initialize(
