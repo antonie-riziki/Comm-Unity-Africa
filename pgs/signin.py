@@ -33,9 +33,6 @@ airtime = africastalking.Airtime
 #     st.write(f"Hello, {st.experimental_user.name}!")
 
 
-
-from streamlit_carousel import carousel
-
 @st.dialog("Login")
 def sign_in_form():
     with st.form(key="user_login"):
