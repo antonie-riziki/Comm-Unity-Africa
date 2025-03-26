@@ -13,4 +13,5 @@ folium
 google-generativeai
 streamlit-folium
 streamlit-audiorec
+streamlit-lottie
 folium
