@@ -12,7 +12,7 @@ from st_audiorec import st_audiorec
 
 from streamlit_lottie import st_lottie
 from streamlit.components.v1 import html
-from streamlit_drawable_canvas import st_canvas
+# from streamlit_drawable_canvas import st_canvas
 
 sys.path.insert(1, './models')
 print(sys.path.insert(1, '../models/'))
